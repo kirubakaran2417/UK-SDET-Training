@@ -12,7 +12,7 @@ public class WindowHandling {
     static WebDriver driver;
     public static void main(String[] args) throws IOException {
 
-        driver = BrowserSetup.BrowserSetup();
+        driver = BrowserSetup.browserSetup();
         driver.get("https://demo.automationtesting.in/Windows.html");
         driver.findElement(By.xpath("//a[@href='#Seperate']")).click();
         driver.findElement(By.xpath("//*[@id='Seperate']/button")).click();

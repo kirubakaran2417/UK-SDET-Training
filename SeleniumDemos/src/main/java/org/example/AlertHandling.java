@@ -10,7 +10,7 @@ public class AlertHandling {
     static WebDriver driver;
     public static void main(String[] args) throws IOException {
 
-        driver=BrowserSetup.BrowserSetup();
+        driver=BrowserSetup.browserSetup();
         driver.get("https://nxtgenaiacademy.com/alertandpopup/");
         driver.findElement(By.name("alertbox")).click();
         Alert alert=driver.switchTo().alert();

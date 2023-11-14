@@ -11,7 +11,7 @@ public class ScreenshotDemo {
         static WebDriver driver;
         public static void main(String[] args) throws IOException {
 
-            driver=BrowserSetup.BrowserSetup();
+            driver=BrowserSetup.browserSetup();
             driver.get("https://www.mycontactform.com");
             WebElement sampleforms=driver.findElement(By.linkText("Sample Forms"));
             //Take screenshot

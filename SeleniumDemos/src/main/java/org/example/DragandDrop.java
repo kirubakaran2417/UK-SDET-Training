@@ -11,7 +11,7 @@ public class DragandDrop {
     static WebDriver driver;
     public static void main(String[] args) throws IOException {
 
-        driver=BrowserSetup.BrowserSetup();
+        driver=BrowserSetup.browserSetup();
         driver.get("https://www.jqueryui.com");
         driver.findElement(By.linkText("Droppable")).click();
         //to switch inside a frame
