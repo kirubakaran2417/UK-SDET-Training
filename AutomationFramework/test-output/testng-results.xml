@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-21T22:39:00 IST" name="Default Suite" finished-at="2023-11-21T22:39:11 IST" duration-ms="11055">
+  <suite started-at="2023-11-29T21:28:01 IST" name="Default Suite" finished-at="2023-11-29T21:28:06 IST" duration-ms="5277">
     <groups>
     </groups>
-    <test started-at="2023-11-21T22:39:00 IST" name="AutomationFramework" finished-at="2023-11-21T22:39:11 IST" duration-ms="11055">
+    <test started-at="2023-11-29T21:28:01 IST" name="AutomationFramework" finished-at="2023-11-29T21:28:06 IST" duration-ms="5277">
       <class name="testcases.RegressionTestcase">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.RegressionTestcase@3745e5c6]" started-at="2023-11-21T22:39:00 IST" name="setup" finished-at="2023-11-21T22:39:09 IST" duration-ms="8491" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.RegressionTestcase@23986957]" started-at="2023-11-29T21:28:01 IST" name="setup" finished-at="2023-11-29T21:28:05 IST" duration-ms="3316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testSignInandSignOut()[pri:0, instance:testcases.RegressionTestcase@3745e5c6]" started-at="2023-11-21T22:39:09 IST" name="testSignInandSignOut" finished-at="2023-11-21T22:39:11 IST" duration-ms="2184" status="PASS">
+        <test-method signature="testSignInandSignOut()[pri:0, instance:testcases.RegressionTestcase@23986957]" started-at="2023-11-29T21:28:05 IST" name="testSignInandSignOut" finished-at="2023-11-29T21:28:06 IST" duration-ms="1370" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignInandSignOut -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.RegressionTestcase@3745e5c6]" started-at="2023-11-21T22:39:11 IST" name="teardown" finished-at="2023-11-21T22:39:11 IST" duration-ms="335" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.RegressionTestcase@23986957]" started-at="2023-11-29T21:28:06 IST" name="teardown" finished-at="2023-11-29T21:28:06 IST" duration-ms="232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
