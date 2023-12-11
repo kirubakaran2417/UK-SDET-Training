@@ -1,8 +1,13 @@
 package stepDefinitions;
 
+import io.cucumber.datatable.DataTable;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+
+import java.util.List;
+import java.util.Map;
 
 public class MyStepdefs {
 
@@ -28,4 +33,25 @@ public class MyStepdefs {
     }
 
 
+    @When("Enter {string} and {string}")
+    public void enterUsernameAndPassword(String username, String password) {
+        System.out.println("Enter " + username + " and " + password);
+
+    }
+
+    @And("redirect to login page")
+    public void redirectToLoginPage() {
+        System.out.println("redirect to login page");
+    }
+
+    @When("user enters valid credentials")
+    public void userEntersValidCredentials(DataTable dataTable) {
+        System.out.println("user entered valid credentials");
+        List<Map<String, String>> credentials =
+                dataTable.asMaps(String.class, String.class);
+        String username = credentials.get(0).get("username");
+        System.out.println(username);
+        String password = credentials.get(0).get("password");
+        System.out.println(password);
+    }
 }

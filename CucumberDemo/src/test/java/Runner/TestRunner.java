@@ -7,7 +7,9 @@ import io.cucumber.testng.CucumberOptions;
     features = "classpath:features/Login.feature",
     glue = "stepdefinitions",
     tags = "@regression",
-    plugin = {"pretty", "html:target/cucumber-html-report", "json:target/cucumber.json"}
+    plugin = {"pretty", "html:target/cucumber-html-report.html",
+            "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+            "json:target/cucumber.json"}
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 }
